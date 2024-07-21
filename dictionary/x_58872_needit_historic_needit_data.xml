@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0cbf40ed8363c210e12dcd65eeaad3d2" extends="sys_import_set_row" label="Historic NeedIt Data" max_length="40" name="x_58872_needit_historic_needit_data" type="collection">
+        <element attributes="import_attribute_name=Cost" label="Cost" max_length="15" name="u_cost" type="decimal"/>
+        <element attributes="import_attribute_name=Part Number" label="Part Number" max_length="40" name="u_part_number" type="integer"/>
+        <element attributes="import_attribute_name=Quanity" label="Quanity" max_length="40" name="u_quanity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Part Name" label="Part Name" max_length="40" name="u_part_name" type="string"/>
+    </element>
+</database>
